@@ -71,7 +71,7 @@
 
                             <a href="{{ route('delete', $item->id) }}"><i style="color : red" class="material-icons">delete</i> </a> 
 
-                            <a href=""><i style="color : grey" class="material-icons">print</i> </a>
+                            <a href="{{ route('laporansiswa', $item->id) }}"><i style="color : grey" class="material-icons">print</i> </a>
                         </td>
                         </tr>
                         @endforeach
